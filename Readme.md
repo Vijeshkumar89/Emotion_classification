@@ -108,7 +108,7 @@ model = Sequential([
    macro avg       0.80      0.81      0.80       491
 weighted avg       0.80      0.80      0.80       491
 
-```
+```![alt text](image.png)
 
 ## Summary & Insights:
 - Overall accuracy: 80% on the test set, showing strong generalization.
