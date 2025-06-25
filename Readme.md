@@ -52,36 +52,7 @@ This project focuses on detecting human emotions from speech using advanced audi
 A hybrid CNN + BiGRU deep learning model trained on MFCC features, designed to capture both local patterns and long-term dependencies in audio:
     ![alt text](image-2.png)
 
-```python
-model = Sequential([
-    Conv1D(128, kernel_size=5, activation='relu', input_shape=(180, 1)),
-    BatchNormalization(),
-    MaxPooling1D(pool_size=2),
-    Dropout(0.2),
 
-    Conv1D(256, kernel_size=5, activation='relu'),
-    BatchNormalization(),
-    MaxPooling1D(pool_size=2),
-    Dropout(0.2),
-
-    Conv1D(256, kernel_size=5, activation='relu'),
-    BatchNormalization(),
-    MaxPooling1D(pool_size=2),
-    Dropout(0.2),
-
-    Conv1D(512, kernel_size=5, activation='relu'),
-    BatchNormalization(),
-    MaxPooling1D(pool_size=2),
-    Dropout(0.2),
-
-    Bidirectional(GRU(256, return_sequences=True)),
-    Bidirectional(GRU(128, return_sequences=True)),
-    GlobalAveragePooling1D(),
-    Dropout(0.3),
-    Dense(256, activation='relu'),
-    Dense(8, activation='softmax')
-])
-```
 ## Key Points:
 - CNN layers extract local time-frequency patterns from MFCCs.
 
