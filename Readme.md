@@ -80,8 +80,7 @@ weighted avg       0.80      0.80      0.80       491
 
 ```
 ## Confusion Matrix
- ![alt text](image-1.png)
-
+ ![alt text](image-3.png)
 ## Summary & Insights:
 - Overall accuracy: 80% on the test set, showing strong generalization.
 
