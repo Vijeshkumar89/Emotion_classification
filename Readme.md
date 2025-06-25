@@ -48,9 +48,7 @@ This project focuses on detecting human emotions from speech using advanced audi
 ---
 
 ## 🧠 Model Architecture
-
-A hybrid CNN + BiGRU deep learning model trained on MFCC features, designed to capture both local patterns and long-term dependencies 
-    ![alt text](image-2.png)
+![alt text](image-2.png)
 
 
 ## Key Points:
