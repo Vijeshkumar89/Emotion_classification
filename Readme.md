@@ -48,7 +48,7 @@ This project focuses on detecting human emotions from speech using advanced audi
 ---
 
 ## 🧠 Model Architecture
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 
 ## Key Points:
@@ -80,7 +80,8 @@ weighted avg       0.80      0.80      0.80       491
 
 ```
 ## Confusion Matrix
- ![alt text](image-3.png)
+ ![alt text](image-1.png)
+
 ## Summary & Insights:
 - Overall accuracy: 80% on the test set, showing strong generalization.
 
