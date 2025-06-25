@@ -93,3 +93,9 @@ weighted avg       0.80      0.80      0.80       491
 
 ## Stream lit Web App
 Launch the app : https://emotionclassification-35uy4ytuemc3w3ovpoeiny.streamlit.app/
+
+Upload a .wav file to get real-time emotion prediction. Model supports both speech and song clips.
+
+## 📹 Demo Video
+
+    A 2-minute video demonstration of the web app usage is included in demo_video.mp4.
