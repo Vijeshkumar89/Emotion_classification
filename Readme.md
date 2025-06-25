@@ -119,3 +119,5 @@ weighted avg       0.80      0.80      0.80       491
 
 - Balanced performance: Macro and weighted averages are both at 0.80, reflecting consistent results across all classes.
 
+## Stream lit Web App
+Launch the app : https://emotionclassification-35uy4ytuemc3w3ovpoeiny.streamlit.app/
